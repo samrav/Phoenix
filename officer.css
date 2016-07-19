@@ -1,0 +1,24 @@
+body{
+	background-color:tan;
+}
+h1 {
+	color: white
+}
+p {
+	font-family: Georgia;
+	font-size: 10px;
+	color: white;
+}
+form {
+	color: white;
+	font-size: 20px;
+}
+label {
+	font-family: Georgia; 
+	font-size: 20px;
+	color: white;
+}
+.line {
+	font-family: Georgia;
+	font-size: 20px;
+	color: white;
