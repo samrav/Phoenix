@@ -4,13 +4,26 @@
     <head>
 	<link href="homeo.css" rel="stylesheet">
     </head>
-	<p> Progress </p>
+	<h1> Progress </h1>
 	<body>
-	<p>class="question">1. What is the answer to this question?</p>
+	<form onSubmit="captureform()">
 	<ul class="answers">
-	<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label><br/>
-	<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label><br/>
-	<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label><br/>
-	<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label><br/>
-	</ul>
+	<td>Date:</td>
+	<td><input type="date" name="meetingdate" id="meetingdate" /></td><br>
+	<p>Name:<input type= "name" name="offendername" id= "offendername" /></p>
+	<tr><td>Age:</td>
+	<td><input type="number" name="age" min="16" max="115"/></td>
+	</tr><br>
+	<p>Current Achievements:</p>
+	<input type="checkbox" name="q1" value="a" id="q1a"><label for="q1a">Applied For A Job</label><br/>
+	<input type="checkbox" name="q1" value="b" id="q1b"><label for="q1b">Got a Job</label><br/>
+	<input type="checkbox" name="q1" value="c" id="q1c"><label for="q1c">Built A Resume</label><br/>
+	<input type="checkbox" name="q1" value="d" id="q1d"><label for="q1d">Connected with Family</label><br/>
+	<input type="checkbox" name="q1" value="d" id="q1d"><label for="q1d">Found A Steady Income</label><br/>
+	<input type="checkbox" name="q1" value="d" id="q1d"><label for="q1d">Got an Interview</label><br/>
+	<input type="checkbox" name="q1" value="d" id="q1d"><label for="q1d">Found a Shelter or Housing</label><br/>
+	<p>Notes:<input type= "text"  name="offendername" id= "offendername" /><br></p>
+	</ul
+	</form>
+	
 </html>
