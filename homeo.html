@@ -3,14 +3,42 @@
 	<title>Phoenix</title>
     <head>
 	<link href="homeo.css" rel="stylesheet">
+	<link href="homeo.js">
     </head>
-	<p> Progress </p>
+	<h1> Progress </h1>
 	<body>
-	<p>class="question">1. What is the answer to this question?</p>
-	<ul class="answers">
-	<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label><br/>
-	<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label><br/>
-	<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label><br/>
-	<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label><br/>
-	</ul>
+	<form id="frm1" action="form_action.asp">
+	<td>Date:</td>
+	<td><input type="date" name="meetingdate" value="03/11/1999"></td><br>
+	<p>Name:<input type="text" name="offendername" id= "Alexis Covarrubias"></p>
+	<tr><td>Age:</td>
+	<td><input type="text" name="age" min="16" max="115"></td>
+	</tr><br>
+	<p>Current Achievements:</p>
+	<input type="checkbox" name="q1" value="Applied For A Job" id="q1a"><label for="q1a">Applied For A Job</label><br/>
+	<input type="checkbox" name="q1" value="Got a Job" id="q1b"><label for="q1b">Got a Job</label><br/>
+	<input type="checkbox" name="q1" value="Built A Resume" id="q1c"><label for="q1c">Built A Resume</label><br/>
+	<input type="checkbox" name="q1" value="Connected with Family" id="q1d"><label for="q1d">Connected with Family</label><br/>
+	<input type="checkbox" name="q1" value="Found A Steady Income" id="q1d"><label for="q1d">Found A Steady Income</label><br/>
+	<input type="checkbox" name="q1" value="Got an Interview" id="q1d"><label for="q1d">Got an Interview</label><br/>
+	<input type="checkbox" name="q1" value="Found a Shelter or Housing" id="q1d"><label for="q1d">Found a Shelter or Housing</label><br/>
+	<p>Notes:<input type="text"  name="offendername" id= "Blank"><br></p>
+	</form>
+	<button onclick="myFunction()">Sumbit</button>
+	<p id="demo"></p>
+	<script>
+	function myFunction() {
+		var x= document.getElementById("frm1");
+		var text= "";
+		var i;
+		for (i = 0; i < x.length ;i++) {
+			text += x.elements[i].value + "<br>";
+			}
+		document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+	
 </html>

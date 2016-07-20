@@ -1,5 +1,7 @@
 body{
 	background-color: tan;
+	font-size: 20px;
+	color: white;
 }
 h1 {
 	font-family:Georgia;
@@ -9,7 +11,12 @@ h1 {
 }
  p{
 	font-family:Georgia;
-	font-size: 50px;
-	text-align: center;
+	font-size: 20px;
 	color: white;
  }
+#date1{
+	 color: white;
+	 font-size:20px;
+	 font-family: Georgia;
+ }
+ 
