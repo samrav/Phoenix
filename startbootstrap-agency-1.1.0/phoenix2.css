@@ -1,0 +1,9 @@
+body{
+	height: 100%;
+	background-image: url(http://kingofwallpapers.com/phoenix/phoenix-008.jpg);
+	background-coor: #cccccc;
+	background-repeat: no-repeat;
+	background-size: 2000px 950px;
+    background-attachment: fixed;
+    background-position: center; 
+}
