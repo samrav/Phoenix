@@ -46,6 +46,15 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+header {
+	background-image: url(http://kingofwallpapers.com/phoenix/phoenix-008.jpg);
+  background-repeat: no-repeat;
+  background-size: 2200px 1200px;
+  background-position: center center;
+  text-align: center;
+  color: white;
+
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -226,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 body{
-	background-image: url(http://kingofwallpapers.com/phoenix/phoenix-008.jpg);
+background-image: url(http://kingofwallpapers.com/phoenix/phoenix-008.jpg);
   background-repeat: no-repeat;
   background-size: 2200px 1200px;
   background-position: center center;

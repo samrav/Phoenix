@@ -22,7 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="aftersigninforphoenix.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -92,6 +92,9 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Progress</h2>
                     <h3 class="section-subheading text-muted">How have you been?</h3>
+						<h4 id="dayssince"></h4>
+						<h5>Days Since Release</h5>
+						<link href="homeo.js">
                 </div>
             </div>
 			<html>
@@ -99,26 +102,8 @@
     <head>
 	<link href="homeo.css" rel="stylesheet">
 	<link href="homeo.js">
-    </head>
-	<body>
-	<form id="frm1" action="form_action.asp">
-	<td>Date:</td>
-	<td><input type="date" name="meetingdate" value="03/11/1999"></td><br>
-	<p>Name:<input type="text" name="offendername" id= "Alexis Covarrubias"></p>
-	<tr><td>Age:</td>
-	<td><input type="text" name="age" min="16" max="115"></td>
-	</tr><br>
-	<p>Current Achievements:</p>
-	<input type="checkbox" name="q1" value="Applied For A Job" id="q1a"><label for="q1a">Applied For A Job</label><br/>
-	<input type="checkbox" name="q1" value="Got a Job" id="q1b"><label for="q1b">Got a Job</label><br/>
-	<input type="checkbox" name="q1" value="Built A Resume" id="q1c"><label for="q1c">Built A Resume</label><br/>
-	<input type="checkbox" name="q1" value="Connected with Family" id="q1d"><label for="q1d">Connected with Family</label><br/>
-	<input type="checkbox" name="q1" value="Found A Steady Income" id="q1d"><label for="q1d">Found A Steady Income</label><br/>
-	<input type="checkbox" name="q1" value="Got an Interview" id="q1d"><label for="q1d">Got an Interview</label><br/>
-	<input type="checkbox" name="q1" value="Found a Shelter or Housing" id="q1d"><label for="q1d">Found a Shelter or Housing</label><br/>
-	<p>Notes:<input type="text"  name="offendername" id= "Blank"><br></p>
-	</form>
-	<button onclick="myFunction()">Sumbit</button>
+	<script src="homef.js"></script>
+    
 	<p id="demo"></p>
 	<script>
 	function myFunction() {
@@ -181,7 +166,7 @@
                     <img src="http://www.helpforfelons.org/wp-content/uploads/2015/01/Resources.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Help for Felons</h4>
+                        <h4>Help for Ex-Offenders</h4>
                         <p class="text-muted">Get connected to jobs, housing, and opportunities.</p>
                     </div>
                 </div>
@@ -192,25 +177,25 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="http://www.milbanksd.com/wp-content/uploads/2015/01/job-search.jpg" id="help" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Ex Offenders</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Companies Looking to Hire Ex-Offenders</h4>
+                        <p class="text-muted">A list of companies that will likely offer jobs.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://exoffenders.net/employment-jobs-for-felons/" class="portfolio-link" data-toggle="modal">
+                    <a href="https://exoffenders.net/felon-voting-rights/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="https://bossip.files.wordpress.com/2012/10/felonvoting-e1349788827885.jpeg?w=700" id="knowurrights" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Know Your Rights</h4>
+                        <p class="text-muted">Information regarding voting rights of ex-felons in all 50 states. </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">

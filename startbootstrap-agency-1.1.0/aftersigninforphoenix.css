@@ -68,7 +68,13 @@ header {
 .img-centered {
   margin: 0 auto;
 }
-
+#knowurrights {
+	height: 230px;
+	width: 230px;
+}
+#help {
+	height: 200px;
+	width; 90px;
 }
 .btn-primary {
   color: white;
