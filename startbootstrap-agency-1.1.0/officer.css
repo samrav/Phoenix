@@ -1,11 +1,9 @@
-body{
-	background-color:tan;
-}
+
 h1 {
 	color: white
 }
 p {
-	font-family: Georgia;
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10px;
 	color: white;
 }
@@ -14,11 +12,21 @@ form {
 	font-size: 20px;
 }
 label {
-	font-family: Georgia; 
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	font-size: 20px;
 	color: white;
 }
+body{
+background-image: url(http://kingofwallpapers.com/phoenix/phoenix-008.jpg);
+  background-repeat: no-repeat;
+  background-size: 2200px 1200px;
+  background-position: center center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  font-family: Fantasy;
+}
 .line {
-	font-family: Georgia;
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	color: white;
