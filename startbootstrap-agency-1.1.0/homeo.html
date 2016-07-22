@@ -22,7 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="aftersigninforphoenix.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,13 +56,13 @@
                         <a class="page-scroll" href="#progress">Progress</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#list">List of Ex Offenders</a>
+                        <a class="page-scroll" href="#event">Events Near You</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#success">Success Stories</a>
+                        <a class="page-scroll" href="#profile">Profile of Felons</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">About Us</a>
+                        <a class="page-scroll" href="#blank">Blank</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#chat">Chat</a>
@@ -91,10 +91,18 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Progress</h2>
-                    <h3 class="section-subheading text-muted">How has your exfelon progressed?</h3>
+                    <h3 class="section-subheading text-muted">How have your parolee been?</h3>
+						<h4 id="dayssince"></h4>
+						<h5>Days Since Release</h5>
+						<link href="homeo.js">
                 </div>
             </div>
 			<html>
+	<title>Phoenix</title>
+    <head>
+	<link href="homeo.css" rel="stylesheet">
+	<link href="homeo.js">
+	<script src="homef.js"></script>
 	<title>Phoenix</title>
     <head>
 	<link href="homeo.css" rel="stylesheet">
@@ -119,6 +127,7 @@
 	<p>Notes:<input type="text"  name="offendername" id= "Blank"><br></p>
 	</form>
 	<button onclick="myFunction()">Sumbit</button>
+    
 	<p id="demo"></p>
 	<script>
 	function myFunction() {
@@ -162,12 +171,12 @@
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="list" class="bg-light-gray">
+    <section id="event" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">blank</h2>
-                    <h3 class="section-subheading text-muted">Browse through these related websites</h3>
+                    <h2 class="section-heading">Events Near Me</h2>
+                    <h3 class="section-subheading text-muted">Connect your parolee with events</h3>
                 </div>
             </div>
             <div class="row">
@@ -181,7 +190,7 @@
                     <img src="http://www.helpforfelons.org/wp-content/uploads/2015/01/Resources.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Help for Felons</h4>
+                        <h4>Help for Ex-Offenders</h4>
                         <p class="text-muted">Get connected to jobs, housing, and opportunities.</p>
                     </div>
                 </div>
@@ -192,25 +201,25 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="http://www.milbanksd.com/wp-content/uploads/2015/01/job-search.jpg" id="help" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Ex Offenders</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Companies Looking to Hire Ex-Offenders</h4>
+                        <p class="text-muted">A list of companies that will likely offer jobs.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://exoffenders.net/employment-jobs-for-felons/" class="portfolio-link" data-toggle="modal">
+                    <a href="https://exoffenders.net/felon-voting-rights/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="https://bossip.files.wordpress.com/2012/10/felonvoting-e1349788827885.jpeg?w=700" id="knowurrights" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Know Your Rights</h4>
+                        <p class="text-muted">Information regarding voting rights of ex-felons in all 50 states. </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -260,12 +269,12 @@
     </section>
 
     <!-- About Section -->
-    <section id="success">
+    <section id="profile">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">profile of felons</h2>
-                    <h3 class="section-subheading text-muted">blank1</h3>
+                    <h2 class="section-heading">Profiles</h2>
+                    <h3 class="section-subheading text-muted">Your parolees</h3>
                 </div>
             </div>
             <div class="row">
@@ -273,57 +282,60 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="http://www.ew.com/sites/default/files/styles/tout_image_gallery_612/public/i/2014/04/28/Taylor-Schilling.jpg?itok=9Uu1sfog" style="width:400px; height:160px"; alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>Piper Chapman</h4>
+                                    <h4 class="subheading">Offense: Money-Laundering Charges</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">UPDATE! 
+									TO DO: Get a job, read Harry Potter, and reconnect with friends
+									DONE: Established stable housing</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="http://www.ew.com/sites/default/files/i/2014/04/28/Danielle-Brooks.jpg" style="width:400px; height:160px";alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>Tasha Jefferson</h4>
+                                    <h4 class="subheading">Offense: Drug dealing </h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">TO DO: Watch movie with mother, go back to school, read East of Edon
+									DONE:</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="http://www.ew.com/sites/default/files/styles/tout_image_gallery_612/public/i/2014/04/28/Dascha-Polanco.jpg?itok=lanqg0BP" style="width:400px; height:160px";alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>Dayanara Diaz</h4>
+                                    <h4 class="subheading">Offense: Drug related charges</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted"></p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="http://www.ew.com/sites/default/files/styles/tout_image_gallery_612/public/i/2014/04/28/Kate-Mulgrew.jpg?itok=JVZGMcWd" style="width:400px; height:160px"; alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>Galina Reznikov</h4>
+                                    <h4 class="subheading">Offense: Murder</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">fhfh</p>
                                 </div>
                             </div>
                         </li>
@@ -341,12 +353,12 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="blank" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">blank1</h2>
-                    <h3 class="section-subheading text-muted">bkank</h3>
+                    <h2 class="section-heading">Blank</h2>
+                    <h3 class="section-subheading text-muted">Blank1</h3>
                 </div>
             </div>
             <div class="row">
@@ -433,11 +445,11 @@
     </aside>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="chat">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Chat room</h2>
+                    <h2 class="section-heading">Chat</h2>
                     <h3 class="section-subheading text-muted">This is our contact info</h3>
                 </div>
             </div>
