@@ -22,7 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/agency.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,7 +52,6 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-
                     <li>
                         <a class="page-scroll" href="#progress">Progress</a>
                     </li>
@@ -62,13 +61,8 @@
                     <li>
                         <a class="page-scroll" href="#success">Success Stories</a>
                     </li>
-
                     <li>
                         <a class="page-scroll" href="#team">About Us</a>
-
-                    <li>	
-					<li><a class="page-scroll" href="file:///C:/Users/GWC1/Phoenix/chat.html">Chat</a>
-
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -85,14 +79,8 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To Phoenix!</div>
-<<<<<<< HEAD
-                <div class="intro-heading">Are you </div>
-                <a href="felon.html"><button type="button" id=phoenix class="page-scroll btn btn-xl">Phoenix</a></button>
-				<a href="officer.html"><button type="button" id=officer class="page-scroll btn btn-xl">Parole Officer</a></button>
-=======
                 
 				
->>>>>>> d1a14ff8ccbf830fba1725df2c639cfb6505d274
             </div>
         </div>
     </header>
@@ -106,6 +94,44 @@
                     <h3 class="section-subheading text-muted">How have you been?</h3>
                 </div>
             </div>
+			<html>
+	<title>Phoenix</title>
+    <head>
+	<link href="homeo.css" rel="stylesheet">
+	<link href="homeo.js">
+    </head>
+	<body>
+	<form id="frm1" action="form_action.asp">
+	<td>Date:</td>
+	<td><input type="date" name="meetingdate" value="03/11/1999"></td><br>
+	<p>Name:<input type="text" name="offendername" id= "Alexis Covarrubias"></p>
+	<tr><td>Age:</td>
+	<td><input type="text" name="age" min="16" max="115"></td>
+	</tr><br>
+	<p>Current Achievements:</p>
+	<input type="checkbox" name="q1" value="Applied For A Job" id="q1a"><label for="q1a">Applied For A Job</label><br/>
+	<input type="checkbox" name="q1" value="Got a Job" id="q1b"><label for="q1b">Got a Job</label><br/>
+	<input type="checkbox" name="q1" value="Built A Resume" id="q1c"><label for="q1c">Built A Resume</label><br/>
+	<input type="checkbox" name="q1" value="Connected with Family" id="q1d"><label for="q1d">Connected with Family</label><br/>
+	<input type="checkbox" name="q1" value="Found A Steady Income" id="q1d"><label for="q1d">Found A Steady Income</label><br/>
+	<input type="checkbox" name="q1" value="Got an Interview" id="q1d"><label for="q1d">Got an Interview</label><br/>
+	<input type="checkbox" name="q1" value="Found a Shelter or Housing" id="q1d"><label for="q1d">Found a Shelter or Housing</label><br/>
+	<p>Notes:<input type="text"  name="offendername" id= "Blank"><br></p>
+	</form>
+	<button onclick="myFunction()">Sumbit</button>
+	<p id="demo"></p>
+	<script>
+	function myFunction() {
+		var x= document.getElementById("frm1");
+		var text= "";
+		var i;
+		for (i = 0; i < x.length ;i++) {
+			text += x.elements[i].value + "<br>";
+			}
+		document.getElementById("demo").innerHTML = text;
+}
+</script>
+
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -141,26 +167,26 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Resources</h2>
-                    <h3 class="section-subheading text-muted">Chat with your parole officer"</h3>
+                    <h3 class="section-subheading text-muted">Browse through these related websites</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="http://www.helpforfelons.org/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    <img src="http://www.helpforfelons.org/wp-content/uploads/2015/01/Resources.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Help for Felons</h4>
+                        <p class="text-muted">Get connected to jobs, housing, and opportunities.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="https://exoffenders.net/employment-jobs-for-felons/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -169,12 +195,12 @@
                         <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
+                        <h4>Ex Offenders</h4>
                         <p class="text-muted">Website Design</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="https://exoffenders.net/employment-jobs-for-felons/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -216,7 +242,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#https://xamire.com/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -239,7 +265,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Success Stories</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">People who have used our progr</h3>
                 </div>
             </div>
             <div class="row">
