@@ -46,10 +46,14 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-li {
+.hidden{
 	background-color:#000000;
-  color: white;
+	color: white;
 
+
+}
+nav {
+	color: black;
 }
 header {
 	background-image: url(http://kingofwallpapers.com/phoenix/phoenix-008.jpg);
@@ -61,10 +65,11 @@ header {
   color: white;
 
 }
-#progress {
+#susan {
+	height: 400px;
+	width: 50%;
+}
 
-}
-}
 .img-centered {
   margin: 0 auto;
 }
@@ -74,7 +79,14 @@ header {
 }
 #help {
 	height: 200px;
-	width; 90px;
+	width; 230px;
+}
+#resources {
+	color: white;
+}
+#reentry {
+	height: 200 px;
+	width: 90px;
 }
 .btn-primary {
   color: white;
