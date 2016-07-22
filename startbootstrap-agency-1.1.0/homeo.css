@@ -1,5 +1,4 @@
 body{
-	background-color: tan;
 	font-size: 20px;
 	color: white;
 }
@@ -15,8 +14,12 @@ h1 {
 	color: white;
  }
 #date1{
-	 color: white;
+	 color: black;
 	 font-size:20px;
 	 font-family: Georgia;
+ }
+#userimput {
+	 color:black;
+	 
  }
  

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<title>Phoenix</title>
     <head>
@@ -9,12 +10,12 @@
 	<body>
 	<form id="frm1" action="form_action.asp">
 	<td>Date:</td>
-	<td><input type="date" name="meetingdate" value="03/11/1999"></td><br>
-	<p>Name:<input type="text" name="offendername" id= "Alexis Covarrubias"></p>
+	<td><input type="date" id="userimput" name="meetingdate" value="03/11/1999"></td><br>
+	<td>Name:<input type="text" name="offendername" id="userimput"  value="Alexis Covarrubias"></td>
 	<tr><td>Age:</td>
-	<td><input type="text" name="age" min="16" max="115"></td>
+	<td><input type="text" id="userimput"name="age" min="16" max="115"></td>
 	</tr><br>
-	<p>Current Achievements:</p>
+	<td>Current Achievements:</td>
 	<input type="checkbox" name="q1" value="Applied For A Job" id="q1a"><label for="q1a">Applied For A Job</label><br/>
 	<input type="checkbox" name="q1" value="Got a Job" id="q1b"><label for="q1b">Got a Job</label><br/>
 	<input type="checkbox" name="q1" value="Built A Resume" id="q1c"><label for="q1c">Built A Resume</label><br/>
@@ -22,7 +23,7 @@
 	<input type="checkbox" name="q1" value="Found A Steady Income" id="q1d"><label for="q1d">Found A Steady Income</label><br/>
 	<input type="checkbox" name="q1" value="Got an Interview" id="q1d"><label for="q1d">Got an Interview</label><br/>
 	<input type="checkbox" name="q1" value="Found a Shelter or Housing" id="q1d"><label for="q1d">Found a Shelter or Housing</label><br/>
-	<p>Notes:<input type="text"  name="offendername" id= "Blank"><br></p>
+	<td>Notes:<input type="text"  name="offendername" id="userimput"><br></td>
 	</form>
 	<button onclick="myFunction()">Sumbit</button>
 	<p id="demo"></p>
